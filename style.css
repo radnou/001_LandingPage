@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.header,
+.footer,
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #1f2937;
+}
+
+.hero-main-text {
+    color: #E5E7EB;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text,
+.header-link-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 28px;
+}
+
+.contentright {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+}
+
+.placeholderImg {
+    background-color: #666;
+    width: 600px;
+    height: 300px;
+}
+
+.calltoaction {
+    background: #3882F6;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    flex: 1;
+    gap: 18px;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.informationTitle {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.Items {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item>* {
+    text-align: center;
+    width: 75px;
+}
+
+.subtext {
+    color: rgb(206, 206, 206);
+    font-weight: 700;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #3882F6;
+}
+
+.quote {
+    background: #E5E7EB;
+    margin: 25px 20px;
+    display: flex;
+    flex: 1;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.quote-author{
+    text-align: right;
+    font-weight: 900;
+    font-size: 28px;
+}
